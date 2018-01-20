@@ -9,7 +9,7 @@ The `bin/compile` script run webpack with the default configuration file (`webpa
 1. Specify our buildpack as the priorized one, for now:
 
    ```bash
-   $ heroku buildpacks:set https://github.com/kreativgebiet/heroku-buildpack-webpack
+   $ heroku buildpacks:set https://github.com/hamham91/heroku-buildpack-webpack
    ```
 
 2. Add the `heroku/nodejs` buildpack back at `index=1`:
