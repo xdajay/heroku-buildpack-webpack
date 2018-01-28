@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -f $1/webpack.config.js ]; then
+if [ -f $1/webpack.prod.js ]; then
   echo "Webpack buildpack"
   exit 0
 else
