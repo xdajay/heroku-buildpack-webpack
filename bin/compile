@@ -16,4 +16,4 @@ cd $build_dir
 
 head "Building webpack bundle"
 
-$(npm bin)../webpack/bin/webpack.js --config webpack.prod.js
+$(npm bin)/../webpack/bin/webpack.js --config webpack.prod.js
