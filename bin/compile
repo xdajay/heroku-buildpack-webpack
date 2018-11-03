@@ -16,5 +16,5 @@ cd $build_dir
 
 head "Building webpack bundle"
 
-npm rebuild
+npm rebuild --build-from-source
 npm run build
